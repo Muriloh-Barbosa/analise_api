@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Nome": {
+        "type":"string",
+        "minLength": 60,
+        "maxLength": 80
+
+      }
+    },
+    "required": ["Nome"],
+    "additionlProperties": false
+  }
+}
+
