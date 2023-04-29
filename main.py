@@ -37,14 +37,14 @@ def numeros():
         print("Digite um CPF valido!")
 
 
-endereco =  http.json()['Endereco']
-cidade   =  http.json()['Cidade']
-estado   =  http.json()['Estado']
-telefone =  http.json()['Telefone']
-email    =  http.json()['Email']
-hospital =  http.json()['Hospital']
-matricula=  http.json()['Matricula']
-dataCadastro = http.json()['DataCadastro']
+endereco =  ['Endereco']
+cidade   =  ['Cidade']
+estado   =  ['Estado']
+telefone =  ['Telefone']
+email    =  ['Email']
+hospital =  ['Hospital']
+matricula=  ['Matricula']
+dataCadastro =['DataCadastro']
 
 validator = Draft7Validator(schema)
 
